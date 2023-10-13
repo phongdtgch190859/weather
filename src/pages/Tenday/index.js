@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from '../Tenday/styles.module.css';
+import ListWeather from './ListWeather'
 import Aside from '../ads'
-import ListWeather from './ListWeather';
+import styles from './styles.module.css';
 
-const Weekend = () => {
+const TenDay = () => {
   return (
     <div className={styles.Tenday}>
         <div className={styles.Tenday_Ads}>
@@ -22,4 +22,9 @@ const Weekend = () => {
   )
 }
 
-export default Weekend
+
+
+export default TenDay
+
+
+
